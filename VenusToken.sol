@@ -11,7 +11,7 @@ contract VenusToken is ERC721, ERC721Enumerable, Ownable {
 
     Counters.Counter private _tokenIdCounter;
 
-    constructor() ERC721("VenusToken", "VTK") {}
+    constructor() ERC721("VenusToken", "VEN") {}
     uint256 public mintRate = 0.01 ether;
 
     function _baseURI() internal pure override returns (string memory) {
